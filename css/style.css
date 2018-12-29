@@ -1,0 +1,86 @@
+:root {
+    --fuentePrimaria: 'Playfair Display', serif;
+    --fuenteSecundaria: 'Raleway', sans-serif;
+    --primario: #037bc0;
+    --secundario: #8cbc00;
+}
+
+/** Globales **/
+.bg-primary {
+    background-color: #037bc0!important;
+}
+.imagen-bg{
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+
+/** Titulo **/
+.titulo {
+    font-family: 'Playfair Display', serif;
+}
+
+.titulo span{
+    color: #037bc0;
+}
+
+.nav-link {
+    color: black;
+}
+
+.navbar {
+    border-top: 1px solid #e1e1e1;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+/* Imagen Principal */
+.imagen-principal{
+    background-image: url(../img/principal.jpg);
+    height: 35rem;
+}
+
+/*Categorias*/
+.categorias a{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    color: black!important;
+    font-size: 2rem;
+}
+.categorias a:hover{
+    text-decoration: none;
+}
+
+/*Nosotros*/
+.sobre-nosotros,.imagen-nosotros{
+    min-height: 35rem;
+}
+.imagen-nosotros {
+    background-image: url(../img/nosotros.jpg);
+}
+
+/*Productos*/
+.info-producto .precio{
+    font-size: 1.8rem;
+}
+
+.info-producto .btn-success {
+    background-color: #8cbc00!important;
+    border-color: #8cbc00!important;
+}
+.info-producto .btn-success:hover {
+    background-color: #779e01!important;
+}
+
+/*Footer*/
+.footer {
+    border-top: 1px solid #e1e1e1;
+}
+
+.footer-menu .nav-link{
+    color:  #666!important;
+}
